@@ -8,14 +8,12 @@ namespace Ucu.Poo.Gates
         // Atributos de la clase
         public string Nombre { get; set; }
         public Dictionary<string, int> Entradas { get; set; }
-        public int Salida { get; set; }
 
         // Constructor de la clase
         public CompuertaAND(string nombre)
         {
             this.Nombre = nombre;
             this.Entradas = new Dictionary<string, int>();
-            this.Salida = 0;
         }
 
         // Método GetNombre

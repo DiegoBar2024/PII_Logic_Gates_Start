@@ -11,7 +11,6 @@ namespace Ucu.Poo.Gates
         public string Nombre { get; set; }
         public string Conector { get; set; }
         public int Valor { get; set; }
-        public int Salida { get; set; }
 
         // Constructor de la clase
         public CompuertaNOT(string nombre)
@@ -19,7 +18,6 @@ namespace Ucu.Poo.Gates
             this.Nombre = nombre;
             this.Conector = "";
             this.Valor = 0;
-            this.Salida = 0;
         }
 
         // Método GetNombre
