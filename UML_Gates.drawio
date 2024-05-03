@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2024-05-03T17:00:09.369Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="waeEIo2gAXdDHog2wjdH" version="24.3.1" type="device">
+  <diagram name="Página-1" id="1KLmb5ahpds3tnqcnu3g">
+    <mxGraphModel dx="1702" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KcXMN87xt5VrhMj0AnKz-10" value="&lt;b&gt;CompuertaOR&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="219" width="310" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="KcXMN87xt5VrhMj0AnKz-12" value="+ Nombre : string&lt;div&gt;+ Entradas : Dictionary&amp;lt;string,int&amp;gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="KcXMN87xt5VrhMj0AnKz-10" vertex="1">
+          <mxGeometry y="30" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KcXMN87xt5VrhMj0AnKz-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=bottom;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="KcXMN87xt5VrhMj0AnKz-10" vertex="1">
+          <mxGeometry y="90" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="KcXMN87xt5VrhMj0AnKz-17" value="&lt;div&gt;+ GetNombre() : string&lt;/div&gt;&lt;div&gt;+ AgregarEntrada(conector : string, valor : int) : void&lt;/div&gt;&lt;div&gt;+ Calcular() : int&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="KcXMN87xt5VrhMj0AnKz-10" vertex="1">
+          <mxGeometry y="98" width="310" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="hK59LdSfps5EMtFGtI8E-1" value="&lt;b&gt;&amp;lt;interface&amp;gt; IGate&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="10" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hK59LdSfps5EMtFGtI8E-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=top;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;horizontal=1;" vertex="1" parent="hK59LdSfps5EMtFGtI8E-1">
+          <mxGeometry y="30" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hK59LdSfps5EMtFGtI8E-7" value="&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;+ GetNombre() : string&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;+ AgregarEntrada(conector : string, valor : int) : void&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;+ Calcular() : int&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hK59LdSfps5EMtFGtI8E-1">
+          <mxGeometry y="38" width="290" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="hK59LdSfps5EMtFGtI8E-8" value="&lt;b&gt;CompuertaAND&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="219" width="310" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="hK59LdSfps5EMtFGtI8E-9" value="+ Nombre : string&lt;div&gt;+ Entradas : Dictionary&amp;lt;string,int&amp;gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hK59LdSfps5EMtFGtI8E-8">
+          <mxGeometry y="30" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hK59LdSfps5EMtFGtI8E-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=bottom;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hK59LdSfps5EMtFGtI8E-8">
+          <mxGeometry y="90" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hK59LdSfps5EMtFGtI8E-11" value="&lt;div&gt;+ GetNombre() : string&lt;/div&gt;&lt;div&gt;+ AgregarEntrada(conector : string, valor : int) : void&lt;/div&gt;&lt;div&gt;+ Calcular() : int&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hK59LdSfps5EMtFGtI8E-8">
+          <mxGeometry y="98" width="310" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="hK59LdSfps5EMtFGtI8E-12" value="&lt;b&gt;CompuertaNOT&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="710" y="219" width="310" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="hK59LdSfps5EMtFGtI8E-13" value="+ Nombre : string&lt;div&gt;+ Entradas : Dictionary&amp;lt;string,int&amp;gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hK59LdSfps5EMtFGtI8E-12">
+          <mxGeometry y="30" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hK59LdSfps5EMtFGtI8E-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=bottom;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hK59LdSfps5EMtFGtI8E-12">
+          <mxGeometry y="90" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hK59LdSfps5EMtFGtI8E-15" value="&lt;div&gt;+ GetNombre() : string&lt;/div&gt;&lt;div&gt;+ AgregarEntrada(conector : string, valor : int) : void&lt;/div&gt;&lt;div&gt;+ Calcular() : int&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hK59LdSfps5EMtFGtI8E-12">
+          <mxGeometry y="98" width="310" height="76" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
