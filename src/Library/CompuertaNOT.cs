@@ -4,6 +4,7 @@ using System.ComponentModel;
 
 namespace Ucu.Poo.Gates
 {
+    // Creo la clase CompuertaNOT la cual implementa la interfaz IGate
     public class CompuertaNOT : IGate
     {
         // Atributos de la clase
@@ -37,6 +38,7 @@ namespace Ucu.Poo.Gates
         // Método Calcular
         public int Calcular()
         {
+            // En caso que el valor sea igual a 0, digo que me retorne 1
             if (this.Valor == 0)
             {
                 return 1;

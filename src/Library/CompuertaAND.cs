@@ -2,6 +2,7 @@ using System;
 
 namespace Ucu.Poo.Gates
 {
+    // Creo la clase CompuertaAND la cual implementa la interfaz IGate
     public class CompuertaAND : IGate
     {
         // Atributos de la clase
@@ -26,20 +27,32 @@ namespace Ucu.Poo.Gates
         // Método AgregarEntrada
         public void AgregarEntrada(string conector, int valor)
         {
-            this.Entradas.Add(conector, valor);
+            // En caso que el conector ya exista, lo sustituyo por el nuevo parámetro.
+            if (this.Entradas.Keys.Contains(conector))
+            {
+                this.Entradas[conector] = valor;
+            }
+
+            // En caso que el conector no exista, lo creo y le asigno el valor requerido
+            else
+            {
+                this.Entradas.Add(conector,valor);
+            }
         }
 
         // Método Calcular
         public int Calcular()
         {
-            int prod = 1;
-
+            // Itero para cada uno de los bits de entrada
             foreach (string entrada in this.Entradas.Keys)
             {
-                prod *= this.Entradas[entrada];
+                // En caso que exista un bit igual a 0, digo que me retorne 0
+                if (this.Entradas[entrada] == 0)
+                {                    
+                    return 0;
+                }
             }
-
-            return prod;
+            return 1;
         }
 
     }
