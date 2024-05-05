@@ -7,7 +7,7 @@ class Program
     {
         // Creamos la compuerta AND-1 y sus entradas
         CompuertaAND and1 = new CompuertaAND("AND-1");
-        and1.AgregarEntrada("A",1);
+        and1.AgregarEntrada("A",0);
         and1.AgregarEntrada("B",1);
         Console.WriteLine($"Resultado intermedio compuerta '{and1.GetNombre()}': {and1.Calcular()}");
 

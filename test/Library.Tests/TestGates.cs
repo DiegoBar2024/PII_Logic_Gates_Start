@@ -2,7 +2,7 @@ using Ucu.Poo.Gates;
 
 namespace Library.Tests;
 
-public class Tests
+public class TestGates
 {
     [Test]
     public void TestTablaVerdadAND()

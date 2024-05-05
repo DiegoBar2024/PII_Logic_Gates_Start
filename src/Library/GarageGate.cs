@@ -47,7 +47,7 @@ namespace Ucu.Poo.Gates
             CompuertaAND and3 = new CompuertaAND("and3");
 
             // Creación de compuerta OR
-            CompuertaAND or = new CompuertaAND("or");
+            CompuertaOR or = new CompuertaOR("or");
 
             // Creación de compuertas NOT
             CompuertaNOT not1 = new CompuertaNOT("not1");
